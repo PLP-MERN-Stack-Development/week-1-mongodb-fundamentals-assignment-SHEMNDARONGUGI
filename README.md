@@ -44,4 +44,31 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/)
+
+## How to Run the Scripts
+
+1. **Install Dependencies**  
+   Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) installed.
+
+2. **Set Up MongoDB**  
+   - If using a local MongoDB server, ensure it is running (`mongod`).
+   - If using MongoDB Atlas, update your connection string in the scripts as needed.
+
+3. **Populate the Database**  
+   Run the following command in your terminal to insert sample book data:
+   ```sh
+   node insert_books.js
+   ```
+
+4. **Run MongoDB Queries**  
+   Execute your queries using:
+   ```sh
+   node queries.js
+   ```
+
+   Make sure to update any connection details in `queries.js` if necessary.
+
+5. **View Results**  
+   - Use MongoDB Compass or `mongosh` to view your database and verify the results.
+   - Refer to the screenshot instructions for submission.
